@@ -1,3 +1,15 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
 .bravo {
 display:  block;
+width: 350px;
+height: 350px;
+mix-blend-mode: multiply;
+
+}
+
+h1 {
+    font-size: 35px;
+    color: peru;
 }
