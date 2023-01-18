@@ -1,22 +1,23 @@
 body {
     background-color: lightgoldenrodyellow;
-    margin: 0;
     font-family: 'Press Start 2P', cursive;
     font-size: 20px;
     line-height: 30px;
-    
+    width: 70%; 
+	margin: 0 auto;
+   
 }
 header {
     background-color:lightgoldenrodyellow;
-    
     padding: 50px 0px 50px;
     
 }
 
 main {
   margin: 0 auto;
-  padding: 0 20px;
-  max-width: fit-content;
+  padding: 20px 20px;
+  
+
  
 
 }
@@ -55,7 +56,7 @@ margin-right: auto;
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 27px;
     color: peru;
     text-align: center;
     position: relative;
@@ -64,6 +65,7 @@ h1 {
 h2 {
      
     border-bottom: 3px solid;
+    margin: 40px 0 10px;
     font-size: 35px;
 }
 
@@ -75,10 +77,12 @@ h2 {
 
 p {
     margin-left: 45px;
+    
 }
 
 footer {
-    font-size: 10px;
+    font-size: 9px;
+    margin: 0px;
 }
 
  a {
@@ -90,4 +94,12 @@ footer {
 li {
     margin: 0 40px;
     
+}
+
+footer a:hover {
+    opacity: 0.8;
+}
+
+ul li:hover {
+    opacity: 0.8;
 }
